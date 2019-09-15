@@ -1,0 +1,44 @@
+{
+  "name": "ngx-drag-scroll",
+  "version": "8.0.0-beta.2",
+  "description": "Lightweight drag to scroll library for Angular",
+  "contributors": [
+    {
+      "name": "Fan Jin",
+      "email": "fanjin1989@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amr-zaghloul-sary/ng5-drag-scroll.git"
+  },
+  "keywords": [
+    "Angular",
+    "Carousel",
+    "Drag",
+    "Scroll"
+  ],
+  "author": "Fan Jin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Amr-zaghloul-sary/ng5-drag-scroll.git"
+  },
+  "homepage": "https://github.com/Amr-zaghloul-sary/ng5-drag-scroll#readme",
+  "peerDependencies": {
+    "@angular/common": "^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+    "@angular/core": "^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0"
+  },
+  "main": "bundles/ngx-drag-scroll.umd.js",
+  "module": "fesm5/ngx-drag-scroll.js",
+  "es2015": "fesm2015/ngx-drag-scroll.js",
+  "esm5": "esm5/ngx-drag-scroll.js",
+  "esm2015": "esm2015/ngx-drag-scroll.js",
+  "fesm5": "fesm5/ngx-drag-scroll.js",
+  "fesm2015": "fesm2015/ngx-drag-scroll.js",
+  "typings": "ngx-drag-scroll.d.ts",
+  "metadata": "ngx-drag-scroll.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
